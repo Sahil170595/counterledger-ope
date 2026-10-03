@@ -1,0 +1,330 @@
+{
+  "clinical_benefit_claimed": false,
+  "comparison": {
+    "always_maintain": {
+      "direct": {
+        "bootstrap_unit": "patient",
+        "confidence_interval_95_per_decision": [
+          -0.11680036063175663,
+          -0.0399334602814
+        ],
+        "confidence_interval_95_total": [
+          -0.35040108189526986,
+          -0.1198003808442
+        ],
+        "difference_vs_always_maintain": {
+          "bootstrap_unit": "patient",
+          "confidence_interval_95_per_decision": [
+            0.0,
+            0.0
+          ],
+          "confidence_interval_95_total": [
+            0.0,
+            0.0
+          ],
+          "nuisance_models_refit_in_bootstrap": false,
+          "return_per_decision": 0.0,
+          "total_return": 0.0
+        },
+        "nuisance_models_refit_in_bootstrap": false,
+        "return_per_decision": -0.07503050076499658,
+        "total_return": -0.22509150229498975
+      },
+      "sdr_cap_10": {
+        "bootstrap_unit": "patient",
+        "confidence_interval_95_per_decision": [
+          -0.07493687090201524,
+          0.1405019130031678
+        ],
+        "confidence_interval_95_total": [
+          -0.22481061270604574,
+          0.42150573900950344
+        ],
+        "difference_vs_always_maintain": {
+          "bootstrap_unit": "patient",
+          "confidence_interval_95_per_decision": [
+            0.0,
+            0.0
+          ],
+          "confidence_interval_95_total": [
+            0.0,
+            0.0
+          ],
+          "nuisance_models_refit_in_bootstrap": false,
+          "return_per_decision": 0.0,
+          "total_return": 0.0
+        },
+        "nuisance_models_refit_in_bootstrap": false,
+        "return_per_decision": 0.02615901996119754,
+        "total_return": 0.07847705988359262
+      },
+      "terminal_raw_ess": 0.0
+    },
+    "behavior_clone": {
+      "direct": {
+        "bootstrap_unit": "patient",
+        "confidence_interval_95_per_decision": [
+          -0.08673493144970763,
+          -0.006557393636302845
+        ],
+        "confidence_interval_95_total": [
+          -0.2602047943491229,
+          -0.019672180908908536
+        ],
+        "difference_vs_always_maintain": {
+          "bootstrap_unit": "patient",
+          "confidence_interval_95_per_decision": [
+            0.026810294723278057,
+            0.034057496678238396
+          ],
+          "confidence_interval_95_total": [
+            0.08043088416983417,
+            0.10217249003471518
+          ],
+          "nuisance_models_refit_in_bootstrap": false,
+          "return_per_decision": 0.03020819915884151,
+          "total_return": 0.09062459747652453
+        },
+        "nuisance_models_refit_in_bootstrap": false,
+        "return_per_decision": -0.04482230160615508,
+        "total_return": -0.13446690481846524
+      },
+      "sdr_cap_10": {
+        "bootstrap_unit": "patient",
+        "confidence_interval_95_per_decision": [
+          -0.1369257995913504,
+          0.08043870219811146
+        ],
+        "confidence_interval_95_total": [
+          -0.4107773987740512,
+          0.2413161065943344
+        ],
+        "difference_vs_always_maintain": {
+          "bootstrap_unit": "patient",
+          "confidence_interval_95_per_decision": [
+            -0.22604905379291274,
+            0.10738828703302283
+          ],
+          "confidence_interval_95_total": [
+            -0.6781471613787382,
+            0.3221648610990685
+          ],
+          "nuisance_models_refit_in_bootstrap": false,
+          "return_per_decision": -0.053915712287429945,
+          "total_return": -0.16174713686228984
+        },
+        "nuisance_models_refit_in_bootstrap": false,
+        "return_per_decision": -0.0277566923262324,
+        "total_return": -0.0832700769786972
+      },
+      "terminal_raw_ess": 9.913015345370418
+    },
+    "llm_improved": {
+      "direct": {
+        "bootstrap_unit": "patient",
+        "confidence_interval_95_per_decision": [
+          -0.08675155446546745,
+          -0.0071454985214983
+        ],
+        "confidence_interval_95_total": [
+          -0.26025466339640235,
+          -0.021436495564494902
+        ],
+        "difference_vs_always_maintain": {
+          "bootstrap_unit": "patient",
+          "confidence_interval_95_per_decision": [
+            0.027422446057743525,
+            0.03427741714523876
+          ],
+          "confidence_interval_95_total": [
+            0.08226733817323058,
+            0.10283225143571628
+          ],
+          "nuisance_models_refit_in_bootstrap": false,
+          "return_per_decision": 0.0303612254210478,
+          "total_return": 0.0910836762631434
+        },
+        "nuisance_models_refit_in_bootstrap": false,
+        "return_per_decision": -0.04466927534394879,
+        "total_return": -0.13400782603184636
+      },
+      "sdr_cap_10": {
+        "bootstrap_unit": "patient",
+        "confidence_interval_95_per_decision": [
+          -0.1397276335180805,
+          0.06341731610847913
+        ],
+        "confidence_interval_95_total": [
+          -0.41918290055424157,
+          0.1902519483254374
+        ],
+        "difference_vs_always_maintain": {
+          "bootstrap_unit": "patient",
+          "confidence_interval_95_per_decision": [
+            -0.2263417930730405,
+            0.060669620301521565
+          ],
+          "confidence_interval_95_total": [
+            -0.6790253792191215,
+            0.1820088609045647
+          ],
+          "nuisance_models_refit_in_bootstrap": false,
+          "return_per_decision": -0.06378524061630537,
+          "total_return": -0.1913557218489161
+        },
+        "nuisance_models_refit_in_bootstrap": false,
+        "return_per_decision": -0.037626220655107824,
+        "total_return": -0.11287866196532347
+      },
+      "terminal_raw_ess": 8.94932041342204
+    },
+    "llm_zero_shot": {
+      "direct": {
+        "bootstrap_unit": "patient",
+        "confidence_interval_95_per_decision": [
+          -0.09043201151248542,
+          -0.007650834927830373
+        ],
+        "confidence_interval_95_total": [
+          -0.27129603453745627,
+          -0.022952504783491118
+        ],
+        "difference_vs_always_maintain": {
+          "bootstrap_unit": "patient",
+          "confidence_interval_95_per_decision": [
+            0.022401147472056637,
+            0.03429196191129471
+          ],
+          "confidence_interval_95_total": [
+            0.0672034424161699,
+            0.10287588573388413
+          ],
+          "nuisance_models_refit_in_bootstrap": false,
+          "return_per_decision": 0.027967351820937555,
+          "total_return": 0.08390205546281267
+        },
+        "nuisance_models_refit_in_bootstrap": false,
+        "return_per_decision": -0.04706314894405903,
+        "total_return": -0.1411894468321771
+      },
+      "sdr_cap_10": {
+        "bootstrap_unit": "patient",
+        "confidence_interval_95_per_decision": [
+          -0.09175988956112596,
+          0.06253156618447235
+        ],
+        "confidence_interval_95_total": [
+          -0.2752796686833779,
+          0.18759469855341704
+        ],
+        "difference_vs_always_maintain": {
+          "bootstrap_unit": "patient",
+          "confidence_interval_95_per_decision": [
+            -0.16089660582146,
+            0.04465894424546272
+          ],
+          "confidence_interval_95_total": [
+            -0.48268981746438,
+            0.13397683273638816
+          ],
+          "nuisance_models_refit_in_bootstrap": false,
+          "return_per_decision": -0.047076173509440884,
+          "total_return": -0.14122852052832266
+        },
+        "nuisance_models_refit_in_bootstrap": false,
+        "return_per_decision": -0.020917153548243337,
+        "total_return": -0.06275146064473001
+      },
+      "terminal_raw_ess": 9.561982111514022
+    }
+  },
+  "data_origin": "fresh_generator_v1",
+  "input_manifest": {
+    "data_origin": "fresh_generator_v1",
+    "runtime_versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.15.3"
+    },
+    "schema": "counterledger-synthetic-input-v1",
+    "seed": 41,
+    "splits": {
+      "test": {
+        "canonical_csv_sha256": "88c8e5d1dab73588a9c61e61c1a6f1a1a1495bc074e3d2ab027b11616ac103e9",
+        "patients": 12,
+        "rows": 36
+      },
+      "train": {
+        "canonical_csv_sha256": "e61b8a7535a81513002aba89c255688ea0fd0138d9a077f0c5fe6dce88ca13d0",
+        "patients": 60,
+        "rows": 180
+      },
+      "validation": {
+        "canonical_csv_sha256": "e4b9c20d50bbcc6bcf037960179446fc392b8e4ef01e3393ffc6ef12303e0d81",
+        "patients": 24,
+        "rows": 72
+      }
+    },
+    "test_outcomes_used": false
+  },
+  "schema": "counterledger-example-reference-v1",
+  "seed": 41,
+  "simultaneous_family_size": 12,
+  "target_policy_origin": "deterministic_synthetic_not_llm",
+  "training_roles": {
+    "disjoint": true,
+    "manifest_sha256": "ea87b42f8678e379256a911d78a42c49d34383463b888ed7b9082465d263712c",
+    "ope_nuisance_patients": 24,
+    "ope_nuisance_rows": 72,
+    "policy_development_patients": 36,
+    "policy_development_rows": 108
+  },
+  "winner_assessment": {
+    "best_performing_policy": null,
+    "eligible_policies": [],
+    "gate_results": {
+      "always_maintain": {
+        "fallback_rate": true,
+        "low_support_mass": true,
+        "maximum_episode_weight_share": true,
+        "mean_statewise_action_overlap": false,
+        "schema_pass": true,
+        "terminal_raw_ess": false
+      },
+      "behavior_clone": {
+        "fallback_rate": true,
+        "low_support_mass": true,
+        "maximum_episode_weight_share": true,
+        "mean_statewise_action_overlap": true,
+        "schema_pass": true,
+        "terminal_raw_ess": false
+      },
+      "llm_improved": {
+        "fallback_rate": true,
+        "low_support_mass": true,
+        "maximum_episode_weight_share": true,
+        "mean_statewise_action_overlap": true,
+        "schema_pass": true,
+        "terminal_raw_ess": false
+      },
+      "llm_zero_shot": {
+        "fallback_rate": true,
+        "low_support_mass": true,
+        "maximum_episode_weight_share": true,
+        "mean_statewise_action_overlap": true,
+        "schema_pass": true,
+        "terminal_raw_ess": false
+      }
+    },
+    "highest_unfiltered_point_estimate": "llm_improved",
+    "ranking_all": [
+      "llm_improved",
+      "behavior_clone",
+      "llm_zero_shot",
+      "always_maintain"
+    ],
+    "robust_winner": false,
+    "status": "no eligible policy"
+  }
+}

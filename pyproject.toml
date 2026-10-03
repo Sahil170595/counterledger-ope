@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "counterledger-ope"
+version = "0.1.0"
+description = "Patient-disjoint fitted Q evaluation and sequential doubly robust policy audits"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "numpy==2.2.6",
+  "pandas==2.3.3",
+  "scikit-learn==1.8.0",
+  "scipy==1.15.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "ruff>=0.9,<1"]
+llm = ["torch>=2.5,<3", "transformers>=4.48,<6", "safetensors>=0.4.5,<1"]
+
+[project.scripts]
+counterledger-example = "pipeline:main"
+
+[tool.setuptools]
+py-modules = [
+  "contracts", "diagnostics", "env", "evaluate", "improvement",
+  "llama_cpp_client", "llm_client", "llm_provenance", "pipeline",
+  "policy", "prompts", "reward", "synthetic", "value_model",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -p no:cacheprovider"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
