@@ -15,9 +15,10 @@ provider credentials, model weights or earlier repository history are included.
 The runnable example does not execute an LLM.
 
 - [Public portfolio](https://chimeraforge.vercel.app/work)
-- [Browser inspector draft PR #56](https://github.com/Sahil170595/Banterblogs/pull/56):
-  merge and integrated QA pending at source-release preparation. The browser is a
-  separately reduced explanatory adaptation, not a replacement for this evaluator.
+- [Browser demo](https://chimeraforge.vercel.app/projects/reinforcement-learning/offline-policy-evaluation):
+  importance-sampling estimates on a generated cohort, with a constant control, reward
+  presets and a support audit. It is a separately reduced explanatory adaptation, not a
+  replacement for this evaluator.
 - [Method and limitations](docs/METHOD.md)
 - [Release scope](docs/RELEASE_SCOPE.md)
 - [Actual synthetic reference](examples/reference.json)
